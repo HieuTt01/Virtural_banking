@@ -1,48 +1,57 @@
 import React from 'react'
+import { 
+    FooterContainer, 
+    FooterWrap, 
+    FooterLinksContainer, 
+    FooterLinksWrapper, 
+    FooterLinksItems,
+    FooterLinksTitle, 
+    FooterLink }
+    from "./FooterElements"
 
 const Footer = () => {
     return (
         <FooterContainer>
             <FooterWrap>
-                <FooterLinkContainer>
-                    <FooterLinkWrapper>
-                        <FooterLinkItems>
-                            <FooterLinkTitle>About us</FooterLinkTitle>
+                <FooterLinksContainer>
+                    <FooterLinksWrapper>
+                        <FooterLinksItems>
+                            <FooterLinksTitle>About us</FooterLinksTitle>
                                 <FooterLink to="/singin">How it works</FooterLink>
                                 <FooterLink to="/singin">Testimonials </FooterLink>
                                 <FooterLink to="/singin">Careers</FooterLink>
                                 <FooterLink to="/singin">Investors </FooterLink>
                                 <FooterLink to="/singin">Terms of Service</FooterLink>
-                        </FooterLinkItems>
+                        </FooterLinksItems>
 
-                        <FooterLinkItems>
-                            <FooterLinkTitle>About us</FooterLinkTitle>
+                        <FooterLinksItems>
+                            <FooterLinksTitle>About us</FooterLinksTitle>
                                 <FooterLink to="/singin">How it works</FooterLink>
                                 <FooterLink to="/singin">Testimonials </FooterLink>
                                 <FooterLink to="/singin">Careers</FooterLink>
                                 <FooterLink to="/singin">Investors </FooterLink>
                                 <FooterLink to="/singin">Terms of Service</FooterLink>
-                        </FooterLinkItems>
+                        </FooterLinksItems>
 
-                        <FooterLinkItems>
-                            <FooterLinkTitle>About us</FooterLinkTitle>
+                        <FooterLinksItems>
+                            <FooterLinksTitle>About us</FooterLinksTitle>
                                 <FooterLink to="/singin">How it works</FooterLink>
                                 <FooterLink to="/singin">Testimonials </FooterLink>
                                 <FooterLink to="/singin">Careers</FooterLink>
                                 <FooterLink to="/singin">Investors </FooterLink>
                                 <FooterLink to="/singin">Terms of Service</FooterLink>
-                        </FooterLinkItems>
+                        </FooterLinksItems>
 
-                        <FooterLinkItems>
-                            <FooterLinkTitle>About us</FooterLinkTitle>
+                        <FooterLinksItems>
+                            <FooterLinksTitle>About us</FooterLinksTitle>
                                 <FooterLink to="/singin">How it works</FooterLink>
                                 <FooterLink to="/singin">Testimonials </FooterLink>
                                 <FooterLink to="/singin">Careers</FooterLink>
                                 <FooterLink to="/singin">Investors </FooterLink>
                                 <FooterLink to="/singin">Terms of Service</FooterLink>
-                        </FooterLinkItems>
-                    </FooterLinkWrapper>
-                </FooterLinkContainer>
+                        </FooterLinksItems>
+                    </FooterLinksWrapper>
+                </FooterLinksContainer>
             </FooterWrap>
         </FooterContainer>
     )

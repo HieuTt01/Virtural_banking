@@ -23,7 +23,7 @@ const Services = () => {
                     <ServicesIcon src={Icon1}/>
                     <ServicesH2> Reduce expenses</ServicesH2>
                     <ServicesP> We help reduce your fess and increase your overall revenue</ServicesP>
-                </ServicesCard>\
+                </ServicesCard>
                 <ServicesCard>
                     <ServicesIcon src={Icon2}/>
                     <ServicesH2> Virtural Offices</ServicesH2>
