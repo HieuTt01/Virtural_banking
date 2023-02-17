@@ -16,6 +16,7 @@ import {
     SocialLogo,
     SocialIcons,
     SocialIconLink,
+    CopyRights,
     WebsiteRights
 } from "./FooterElements"
 
@@ -79,7 +80,8 @@ const Footer = () => {
                         <SocialLogo to="/" onClick={toggleHome}>
                             Dolla
                         </SocialLogo>
-                        <WebsiteRights>Dolla © 2 0 2 0</WebsiteRights>
+                        <CopyRights> © 2 0 2 0 </CopyRights>
+                        {/* <WebsiteRights>
                         <SocialIcons>
                             <SocialIconLink href="/" target="_blank" aria-label="Facebook">
                                 <FaFacebook />
@@ -100,6 +102,8 @@ const Footer = () => {
                                 <FaInstagram />
                             </SocialIconLink>
                         </SocialIcons>
+                        </WebsiteRights> */}
+                        
                     </SocialMediaWrap>
                 </SocialMedia>
             </FooterWrap>

@@ -34,7 +34,7 @@ export const Form =styled.form`
     max-width: 400px;
     z-index: 1;
     margin: 0 auto;
-    padding: 80px 32px;
+    padding: 32px 32px;
     border-radius: 4px;
     box-shadow: 0 1px 3px rgba(0 ,0 ,0 ,0.9);
 
@@ -72,13 +72,19 @@ export const FormButton =styled.button`
     font-size: 20px;
     cursor: pointer;
 `
+export const TextButton =styled.div`
+    margin-top: 24px;
+    display: flex;
+    padding: 0 15px;
+    justify-content: space-between;
+`
 
 export const Text =styled.a`
     text-align: center;
-    margin-top: 24px;
     color: #fff;
     font-size: 14px;
     padding: 5px 5px;
+    text-decoration: none;
     
     &:hover {
         ${'' /* text-dercoration: underline; */}
@@ -90,11 +96,10 @@ export const Text =styled.a`
 
 export const Icon = styled(Link)`
     color: #fff;
-    margin-top: 32px;
-    margin-left: 32px;
     font-size: 2rem;
     fort-weight: 700;
     text-decoration: none;
+    text-align: center;
 
     @media screen and (max-width: 480px) {
         margin-left: 16px;

@@ -9,6 +9,7 @@ import {
     FormH1,
     Form,
     FormContent,
+    TextButton,
     Icon
 }
     from "./SigninElements"
@@ -18,26 +19,30 @@ const SignIn = () => {
         <>
             <Container>
                 <FormWrap>
-                    <Icon to="/">Dollar</Icon>
                     <FormContent>
                         <Form action="#">
-                            <FormH1>
-                                Sign in to your account
-                            </FormH1>
+                        <Icon >Dollar Sign In</Icon>
+                            {/* <FormH1>
+                                Please enter your account
+                            </FormH1> */}
                             <FormLabel>
                                 Email
                             </FormLabel>
-                            <FormInput type="email" required />
+                            <FormInput type="email" required placeholder="Enter your email" />
                             <FormLabel>
                                 Password
                             </FormLabel>
-                            <FormInput type="password" required />
+                            <FormInput type="password" placeholder="Enter your password" required />
                             <FormButton type="submit">OK
                             </FormButton>
+                            <TextButton>
+                            <Text href="/">
+                                Back
+                            </Text>
                             <Text>
                                 Forgot password?
                             </Text>
-
+                            </TextButton>
                         </Form>
                     </FormContent>
                 </FormWrap>
